@@ -1,0 +1,21 @@
+{
+  "name": "Gesture Based scroll",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Gesture Based scroll",
+  "homepage_url": "https://github.com/gouravmore",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Gesture Based scroll!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
